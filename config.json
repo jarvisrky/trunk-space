@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    {
+      "name": "audio_streamer",
+      "library": "libaudiostreamer.so",
+      "port": 9123,
+      "address": "127.0.0.1",
+      "audioType": "pcm",
+      "sampleRate": 16000
+    }
+  ]
+}
